@@ -3,7 +3,7 @@ import sys
 
 def main():
 
-    with open("input.txt") as f:
+    with open("../input.txt") as f:
         input = f.read().split("\n")
 
     last = -1
