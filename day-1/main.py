@@ -16,7 +16,7 @@ def main():
             last = line
             continue
 
-        if last > line:
+        if line > last:
             increased += 1
 
         last = line
