@@ -16,8 +16,12 @@ def main():
             last = line
             continue
 
-        if line > last:
+        increase = False
+        if int(line) > int(last):
             increased += 1
+            increase = True
+
+        print(f"{line} > {last} ? {increase}")
 
         last = line
 
